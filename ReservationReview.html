@@ -1,0 +1,247 @@
+﻿<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Reservation Sytem</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+<!-- Wrapper -->
+<div id="wrapper" class="fade-in">
+
+    <!-- Header -->
+        <header id="header">
+            <a href="#" class="logo">Reservation Sytem</a>
+        </header>
+				<div id="goup"><a href="#wrapper" class="button white large" style="color: white;">Go up</a></div>
+        
+        <div style="color: white; font-size: 5 px; margin-left: 15%; margin-right: 15%;" >
+            <p>Unfortunately, the free Microsoft Azure SQL Database expired. Therefore, the  the website is down. Nevertheless, it is still possible to make a fork or copy of the <a style="color: white; text-decoration: underline;" href="https://github.com/ErickPachi/Reservation-sytem">CODE</a> and test it with a local database.</p>
+        </div>
+<br />
+<br />
+    <!-- Nav -->
+        <nav id="nav">
+            <ul class="links">
+                <li><a href="index.html">Portfolio</a></li>
+                <li class="active"><a href=#>Reservation Review</a></li>
+                <li><a href="#Accounts">Accounts</a></li>
+                <li><a href="#Roles">Roles</a></li>
+                <li><a href="#StaffManager">Staff / Manager</a></li>
+                <li><a href="#RESERVATIONS">RESERVATIONS</a></li>
+            </ul>
+            <ul class="icons">
+                <li><a href="https://www.linkedin.com/in/erick-da-fonseca-pachi-3a0331163/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                <li><a href="https://github.com/ErickPachi" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+            </ul>
+        </nav>
+
+    <!-- Main -->
+        <div id="main">
+
+            <!-- Featured Post -->
+                <article class="post featured">
+
+                    <header>
+                        <h2>Reservation Sytem</h2>
+                    </header>
+                    <p><span class="bold">Project Summary: </span>The goal of this project was to create a website that would enable a fictional restaurant called BeanScean to receive  booking requests, which would be managed by staffs.</p>
+        
+                    <div class="image main"><img src="images/Images_Review/Nav.png" alt="" /></div>
+
+                    <p><span class="bold">Requirements: </span> 
+                       <ul style="text-align: left;">
+                           <li>Create a registration/login Sytem.</li>
+                           <li>Create different Roles with different access level (Manager & Staff).</li>
+                           <li>Allow customers to make reservations</li>
+                           <li>If user is logged in, auto fill details inputs.</li>
+                           <li>Enable registered Users to see their reservation History.</li>
+                           <li>Allow staffs/Manager to edit reservations.</li>
+                           <li>Allow staffs/Manager to assign tables to a specific reservation.</li>
+                           <li>Implement table's logic (So the same table cannot be booked twice at the same time).</li>
+                           <li>Allow Manager to assign Roles to users</li>
+                           <li>Allow Manager to Edit the start and End time of each period.</li>
+                       </ul> 
+                    </p>
+                    </article>
+
+            <!-----------------------------------------------------------Accounts-->
+            <!--Registration -&- Login-->
+            <section id="Accounts" style="text-align: center; font-weight: bold; font-size: 30px;">
+                ACCOUNTS
+            </section>
+
+            <section class="posts">
+                <article>
+                    <h2>Registration</h2>
+                </header>
+                <div class="image fit"><img src="images/Images_Review/Registration.png" alt="" /></div>
+                <p>It enables users to create an account.</p>
+            </article>
+                <article>
+                    <h2>Login</h2>
+                </header>
+                <div class="image fit"><img src="images/Images_Review/Login.png" alt="" /></div>
+                <p>It enables users to login with their registered accounts.</p>
+            </article>
+            </section>
+
+            <!--Account Details -&- Account History-->
+
+
+            <section class="posts">
+                <article>
+                    <h2>Account Details</h2>
+                </header>
+                <div class="image fit"><img src="images/Images_Review/accountDetails.png" alt="" /></div>
+                <p>Users can see and edit their personal details.</p>
+            </article>
+                <article>
+                    <h2>Account History</h2>
+                </header>
+                <div class="image fit"><img src="images/Images_Review/AccountHistory.png" alt="" /></div>
+                <p>Users can see all the reservations associated with their accounts.</p>
+            </article>
+            </section>
+
+            <!----------------------------------------------------------------------------------Roles-->
+            <!--Assign Role -&- Staff List-->
+            <section id="Roles" style="text-align: center; font-weight: bold; font-size: 30px;">
+                ROLES
+            </section>
+            <section class="posts">
+                <article>
+                    <h2>Assign Role</h2>
+                </header>
+                <div class="image fit"><img src="images/Images_Review/AssignRole.png" alt="" /></div>
+                <p>This page is only accessible  by managers. And it is where they can assign roles to other users.</p>
+            </article>
+                <article>
+                    <h2>Staff List</h2>
+                </header>
+                <div class="image fit"><img src="images/Images_Review/StaffList.png" alt="" /></div>
+                <p>This page is where managers can see all users that have a role.</p>
+            </article>
+            </section>
+
+             <!--Edit Sittings -&- Reservation Staff-->
+             <section id="StaffManager" style="text-align: center; font-weight: bold; font-size: 30px;">
+                STAFF / MANAGER
+            </section>
+
+             <section class="posts">
+                <article>
+                    <h2>Manager Page</h2>
+                </header>
+                <div class="image fit"><img src="images/Images_Review/ManagerPage.png" alt="ManagerPage.png" /></div>
+                <p>In this page managers can see a report with a Summary of all reservations. And it also enables managers to access other pages.</p>
+                </article>
+                <article>
+                    <h2>Edit Sittings</h2>
+                </header>
+                <div class="image fit"><img src="images/Images_Review/EditSittings.png" alt="" /></div>
+                <p>This page is where managers can Change the Start and End time of each period.</p>
+                </article>
+            </section>
+
+
+            <!--reservation list-->
+
+            <section class="posts">
+            <article>
+                <h2>Reservation List(Manager)</h2>
+            </header>
+            <div class="image fit"><img src="images/Images_Review/ReservationManager.png" alt="" /></div>
+            <p>Users with a Manager Role are able to see, edit and delete Reservations.</p>
+            </article>
+            <article>
+                <h2>Reservation List(Staff)</h2>
+            </header>
+            <div class="image fit"><img src="images/Images_Review/StaffPage.png" alt="" /></div>
+            <p>Staff also are able to see and edit reservations. But unlike managers, staffs are not able to delete them. And they also do not have access to the manager page.</p>
+            </article>
+            </section>
+
+            <!-----------------------------------------------------------------------------------Edit Reservations-->
+            <!--Reservation Manager -&- Edit Reservation-->
+            <section id="RESERVATIONS" style="text-align: center; font-weight: bold; font-size: 30px;">
+                RESERVATIONS
+            </section>
+            <section class="posts">
+                <article>
+                    <h2>Reservation</h2>
+                </header>
+                <div class="image fit"><img src="images/Images_Review/resrvation.png" alt="" /></div>
+                <p>In the reservation page, the user is able to choose the number of guests, day, period and start time. Some basic details will also be required, such as: name, email and phone number (However, it is auto filled if the user is registered).</p>
+                </article>
+                <article>
+                    <h2>Edit Reservation</h2>
+                </header>
+                <div class="image fit"><img src="images/Images_Review/EditReservation.png" alt="Edit Reservation" /></div>
+                <p>This page is where Manager/Staffs can add or remove tables as well as change the booking details (such as status). </p>
+            </article>
+            </section>
+            
+            <!--Edit_area -&- Edit_addTable-->
+
+            <section class="posts">
+                <article>
+                    <h2>choose Area</h2>
+                </header>
+                <div class="image fit"><img src="images/Images_Review/EditReservation_addTable.png" alt="EditReservation_area" /></div>
+                <p>Each reservation can be assigned to one area. Therefore, after picking an area all the Tables from that specific area are displayed.</p>
+                </article>
+                <article>
+                    <h2>Add Table</h2>
+                </header>
+                <div class="image fit"><img src="images/Images_Review/EditReservation_area.png" alt="EditReservation_addTable.png" /></div>
+                <p>All the tables assigned to a reservation are displayed on top.
+                    The code also checks all the reservations booked during the same time, NOT allowing the same table to be booked twice for the same time.
+                </p>
+            </article>
+            </section>
+
+    <!-- Footer -->
+        <footer style="margin: 0px; width: 100%;" id="footer">
+            <section class="split contact">
+
+                <section>
+                    <h3>Phone</h3>
+                    <p>(61) 0412020730</p>
+                </section>
+                <section>
+                    <h3>Email</h3>
+                    <p>erickf.pachi@gmail.com</p>
+                </section>
+                <section>
+                    <h3>Social</h3>
+                    <ul class="icons alt" style="text-align: left;">
+                        <li><a href="https://www.linkedin.com/in/erick-da-fonseca-pachi-3a0331163/" class="icon brands fa-linkedin"><span class="label">Instagram</span></a></li>
+                        <li><a href="https://github.com/ErickPachi" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+                    </ul>
+                </section>
+            </section>
+        </footer>
+
+</div>
+
+
+    <!-- Copyright -->
+    <div id="copyright">
+        <ul><li>&copy; Erick's Portifolio</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+    </div>
+
+<!-- Scripts -->
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
